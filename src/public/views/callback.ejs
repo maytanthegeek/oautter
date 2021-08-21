@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <title>Oautter Callback</title>
+</head>
+
+<body>
+  <form action="/oauth2/callback" method="post">
+    <input type="hidden" name="session" value="<%= session %>">
+  </form>
+  <script>
+    var form = document.querySelector('form');
+    window.open('/oauth2/login?session=<%= session %>', 'Login', 'height=300,width=400,left=10,top=10,scrollbars=yes');
+  </script>
+</body>
+
+</html>

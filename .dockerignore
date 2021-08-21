@@ -1,0 +1,18 @@
+# Directories
+__mocks__
+.github
+coverage
+dist
+keys
+node_modules
+test
+tools
+
+# Files
+.dockerignore
+.env
+.eslintignore
+.eslintrc
+Dockerfile
+jest.config.js
+
